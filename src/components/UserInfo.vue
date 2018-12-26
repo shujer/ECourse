@@ -2,7 +2,7 @@
   <div>
     <div class="hello" v-if="$store.state.authUser.loginState">
       <el-row class="info-card" :gutter="20">
-        <el-col :span="6"><img :src="user.avatar" alt=""></el-col>
+        <el-col :span="6"><img :src="user.avatar" alt="" style="width: 100%"></el-col>
         <el-col :span="18">
           <ul>
             <li>
@@ -39,6 +39,9 @@ export default {
   computed: mapState({
     user: state => state.authUser.account
   }),
+  mounted() {
+    this.$store.dispatch('checkLoginState');
+  },
   data () {
     return {
       msg: 'Hello to UserInfo!',
@@ -77,7 +80,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   img {
-    width: 100%;
+    width: 200px;
     height: 220px;
   }
   .info-card {

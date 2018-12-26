@@ -185,6 +185,7 @@
           })
           .on('error', error => {
             this.$message('打卡失败，每天只能打卡一次');
+            this.getPunchClock();
           })
       },
       getPunchClock() {

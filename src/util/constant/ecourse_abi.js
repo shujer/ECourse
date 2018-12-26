@@ -1,5 +1,5 @@
 // const address = '0x5a64ad89c492ab6349e023812782fa375b9f42c7';
-const address = '0x3f650b228a7495a2f3e7f39528245ad5dd24be9a';
+const address = '0x40629d33fe9e0a8076de874ccb4be0035338bdad';
 const ABI =[
   {
     "constant": false,
