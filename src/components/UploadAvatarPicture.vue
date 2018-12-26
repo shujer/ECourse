@@ -28,7 +28,7 @@
         imgUrl: '',
         bucket: 'sysu-geokg',
         domain: 'https://upload-z2.qiniup.com/',
-        qiniuaddr: 'pipco6kmh.bkt.clouddn.com',
+        qiniuaddr: 'pkcgzrfnc.bkt.clouddn.com',
         loading: false,
         fileList: []
       }

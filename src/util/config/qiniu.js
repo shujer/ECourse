@@ -1,5 +1,5 @@
-const accessKey = 'WElJoKWtZBn_XDAZfVJQWs5Zd0JuABvyCrrFTIg2';
-const secretKey = 'QypTNe-MVc1jBJNimI9tKge56_F5u-0MLSWbKc1F';
+const accessKey = '28OnwkGUX55ywhu7h9-AUao4-7Dp_ewfiVcdAQgj';
+const secretKey = 'XX9cnC89aSUPxp01D4nvEcidQWC84je6abGngVK9';
 
 export {
   accessKey,

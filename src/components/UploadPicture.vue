@@ -27,7 +27,7 @@
         token: {}, // 上传到七牛云的token
         bucket: 'sysu-geokg',
         domain: 'https://upload-z2.qiniup.com/',
-        qiniuaddr: 'pipco6kmh.bkt.clouddn.com',
+        qiniuaddr: 'pkcgzrfnc.bkt.clouddn.com',
       }
     },
     methods: {
